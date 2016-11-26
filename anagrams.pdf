@@ -81,7 +81,7 @@ endobj
 << /Outlines 23 0 R /PageLabels 47 0 R /PageMode /UseNone /Pages 35 0 R /Type /Catalog >>
 endobj
 22 0 obj
-<< /Author () /CreationDate (D:20161126205524+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161126205524+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+<< /Author () /CreationDate (D:20161126205933+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161126205933+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Anagrams) /Trapped /False >>
 endobj
 23 0 obj
@@ -126,7 +126,7 @@ endobj
   20 0 R ] /Type /Pages >>
 endobj
 36 0 obj
-<< /Length 4522 >>
+<< /Length 4523 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -369,7 +369,7 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Special caracters as " ' " are considered as regular caracters too.) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Special characters as " ' " are considered as regular caracters too.) Tj T* ET
 Q
 Q
 q
@@ -5132,33 +5132,33 @@ xref
 0000034091 00000 n
 0000034204 00000 n
 0000034340 00000 n
-0000038919 00000 n
-0000053361 00000 n
-0000067347 00000 n
-0000084104 00000 n
-0000084807 00000 n
-0000085553 00000 n
-0000089771 00000 n
-0000110603 00000 n
-0000143856 00000 n
-0000176742 00000 n
-0000201524 00000 n
-0000201667 00000 n
-0000201704 00000 n
-0000201741 00000 n
-0000201778 00000 n
-0000201815 00000 n
-0000201852 00000 n
-0000201889 00000 n
-0000201926 00000 n
-0000201963 00000 n
-0000202000 00000 n
-0000202038 00000 n
+0000038920 00000 n
+0000053362 00000 n
+0000067348 00000 n
+0000084105 00000 n
+0000084808 00000 n
+0000085554 00000 n
+0000089772 00000 n
+0000110604 00000 n
+0000143857 00000 n
+0000176743 00000 n
+0000201525 00000 n
+0000201668 00000 n
+0000201705 00000 n
+0000201742 00000 n
+0000201779 00000 n
+0000201816 00000 n
+0000201853 00000 n
+0000201890 00000 n
+0000201927 00000 n
+0000201964 00000 n
+0000202001 00000 n
+0000202039 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(-HY8\264\375g\3673\325\031\345%B\207l) (-HY8\264\375g\3673\325\031\345%B\207l)]
+ [(\2624\022-o+\274\354\255*1Q\177\361|\036) (\2624\022-o+\274\354\255*1Q\177\361|\036)]
  /Info 22 0 R /Root 21 0 R /Size 59 >>
 startxref
-202076
+202077
 %%EOF

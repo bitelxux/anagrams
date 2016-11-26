@@ -38,7 +38,7 @@ Assumtions
 
 - One given word is anagram of itself.
 - Anagrams are **not** case sensitive so "Star" is an anagram of "Tras".
-- Special caracters as " ' " are considered as regular caracters too.
+- Special characters as " ' " are considered as regular caracters too.
 
 .. page::
 
