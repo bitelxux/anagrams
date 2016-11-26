@@ -199,7 +199,7 @@ class TestAnagrams(unittest.TestCase):
         
         That makes 45415 tests !!
 
-        They are not ran as individual tests because the required resources
+        They are not run as individual tests because the required resources
         for it would be massive.
         """
         import exhaustive
