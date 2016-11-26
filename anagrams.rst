@@ -146,7 +146,7 @@ Figure 1 representes the times for the three solutions.
 .. figure:: output/anagrams1.png
     :alt: Three solutions. Ran 100 times
 
-    Fig. :counter:`figure`: 100 ran times, solutions 1, 2 and 3
+    Fig. :counter:`figure`: 100 run times, solutions 1, 2 and 3
 
 .. page::
 
