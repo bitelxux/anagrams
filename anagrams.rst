@@ -53,8 +53,8 @@ Well see that the first approach, wich implements the trivial solution, has
 am awful performance, while the second and third one performs thousands of times
 better with a cost of some extra memory use.
 
-Solution 1
-..........
+Solution 1: Brute force
+.......................
 
 This approach collects all the words in the dictionary and stores them in a list.
 In order to find the anagrams for a given word, the algorithm needs
@@ -75,8 +75,8 @@ complely walked in order to find anagrams.
 
 .. page::
 
-Solution 2
-..........
+Solution 2: sorted characters keys
+..................................
 
 In this solution, a python dictionary is created in order to store a pair
 keys - values, where key is the ordered characters representation of each
@@ -100,8 +100,8 @@ given word will return all its anagrams.
 
 .. page::
 
-Solution 3
-..........
+Solution 3: hash keys
+.....................
 
 Similarly to solution 2, buils a python dictionary where the key is the
 hash of the ordered characters representation for each of the original words
