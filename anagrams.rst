@@ -144,9 +144,9 @@ Solution 3 is, however, less memory consumming.
 Figure 1 representes the times for the three solutions.
 
 .. figure:: output/anagrams1.png
-    :alt: Three solutions. Ran 50 times
+    :alt: Three solutions. Ran 100 times
 
-    Fig. :counter:`figure`: 50 ran times, solutions 1, 2 and 3
+    Fig. :counter:`figure`: 100 ran times, solutions 1, 2 and 3
 
 .. page::
 

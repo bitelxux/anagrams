@@ -81,7 +81,7 @@ endobj
 << /Outlines 23 0 R /PageLabels 47 0 R /PageMode /UseNone /Pages 35 0 R /Type /Catalog >>
 endobj
 22 0 obj
-<< /Author () /CreationDate (D:20161126205933+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161126205933+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+<< /Author () /CreationDate (D:20161126214116+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161126214116+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Anagrams) /Trapped /False >>
 endobj
 23 0 obj
@@ -1684,7 +1684,7 @@ Q
 endstream
 endobj
 40 0 obj
-<< /Length 647 >>
+<< /Length 648 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1711,7 +1711,7 @@ Q
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 2 Tm 140.0099 0 Td 12 TL /F3 10 Tf 0 0 0 rg (Fig. ) Tj (1: 50 ran times, solutions 1, 2 and 3) Tj T* -140.0099 0 Td ET
+BT 1 0 0 1 0 2 Tm 137.2299 0 Td 12 TL /F3 10 Tf 0 0 0 rg (Fig. ) Tj (1: 100 ran times, solutions 1, 2 and 3) Tj T* -137.2299 0 Td ET
 Q
 Q
 q
@@ -5136,29 +5136,29 @@ xref
 0000053362 00000 n
 0000067348 00000 n
 0000084105 00000 n
-0000084808 00000 n
-0000085554 00000 n
-0000089772 00000 n
-0000110604 00000 n
-0000143857 00000 n
-0000176743 00000 n
-0000201525 00000 n
-0000201668 00000 n
-0000201705 00000 n
-0000201742 00000 n
-0000201779 00000 n
-0000201816 00000 n
-0000201853 00000 n
-0000201890 00000 n
-0000201927 00000 n
-0000201964 00000 n
-0000202001 00000 n
-0000202039 00000 n
+0000084809 00000 n
+0000085555 00000 n
+0000089773 00000 n
+0000110605 00000 n
+0000143858 00000 n
+0000176744 00000 n
+0000201526 00000 n
+0000201669 00000 n
+0000201706 00000 n
+0000201743 00000 n
+0000201780 00000 n
+0000201817 00000 n
+0000201854 00000 n
+0000201891 00000 n
+0000201928 00000 n
+0000201965 00000 n
+0000202002 00000 n
+0000202040 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(\2624\022-o+\274\354\255*1Q\177\361|\036) (\2624\022-o+\274\354\255*1Q\177\361|\036)]
+ [(\375\344\237\236\343\2765\205\223\362a\034T%\016\254) (\375\344\237\236\343\2765\205\223\362a\034T%\016\254)]
  /Info 22 0 R /Root 21 0 R /Size 59 >>
 startxref
-202077
+202078
 %%EOF
