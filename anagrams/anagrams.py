@@ -179,9 +179,9 @@ class TestAnagrams(unittest.TestCase):
     def test_no_word(self):
         _, r =  self.anagrams1.get_anagrams("")
         self.assertEqual([], r)
-        _, r =  self.anagrams1.get_anagrams("")
+        _, r =  self.anagrams2.get_anagrams("")
         self.assertEqual([], r)
-        _, r =  self.anagrams1.get_anagrams("")
+        _, r =  self.anagrams3.get_anagrams("")
         self.assertEqual([], r)
 
     def test_pure_virtual(self):
@@ -191,7 +191,6 @@ class TestAnagrams(unittest.TestCase):
 
         anagrams = AnagramsX(self.source)
         self.assertRaises(PureVirtualMethod, anagrams.get_anagrams, 'pastel')
-
 
     def test_exaustive(self):
         """
