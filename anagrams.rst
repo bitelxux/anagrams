@@ -196,6 +196,19 @@ Test environment
 * Linux Mint 17
 * Python 2.7.6
 
+.. page::
+
+Appendix
+--------
+
+Complete code is bellow:
+
+Note: exhaustive tests are massive so they are in a separated file exhaustive.py
+
+.. code-block:: python
+  :linenos: true
+  :linenos_offset: true
+  :include: anagrams/anagrams.py
 
 
 
