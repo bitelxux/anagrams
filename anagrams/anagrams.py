@@ -196,6 +196,9 @@ class TestAnagrams(unittest.TestCase):
         """
         This tests tests all anagrams for all words in the given
         dictionary !!
+        
+        That makes 45415 tests !!
+
         They are not ran as individual tests because the required resources
         for it would be massive.
         """
