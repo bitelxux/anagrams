@@ -179,7 +179,7 @@ Latest considerations
 
 * About tests
 
-  An exhaustive test is ran covering 100% of the words in the given dictionary
+  An exhaustive test is run covering 100% of the words in the given dictionary
 
 * About threading
 
