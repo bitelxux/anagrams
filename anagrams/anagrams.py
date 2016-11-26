@@ -66,7 +66,7 @@ class Statistics(object):
     def gen_csv_all(self):
         output_file = os.path.join(OUTPUT_DIR, "anagrams1.csv")
         output = open(output_file, 'w')
-        output.write("anagrams1, anagrams2,anagrams3\n")
+        output.write("anagrams1,anagrams2,anagrams3\n")
         for i in xrange(100):
             t0, _ = self.anagrams1.get_anagrams('plates')
             t1, _ = self.anagrams2.get_anagrams('plates')
@@ -77,6 +77,7 @@ class Statistics(object):
     def gen_csv_best(self):
         output_file = os.path.join(OUTPUT_DIR, "anagrams2.csv")
         output = open(output_file, 'w')
+        output.write("anagrams2,anagrams3\n")
         for i in xrange(5000):
             t1, _ = self.anagrams2.get_anagrams('plates')
             t2, _ = self.anagrams3.get_anagrams('plates')
@@ -196,8 +197,8 @@ class TestAnagrams(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
-    #statistics = Statistics()
-    #statistics.ratios()
-    #statistics.gen_csv_all()
-    #statistics.gen_csv_best()
+    #unittest.main()
+    statistics = Statistics()
+    statistics.ratios()
+    statistics.gen_csv_all()
+    statistics.gen_csv_best()

@@ -141,8 +141,7 @@ Solution 3 is, however, less memory consumming.
 
 .. page::
 
-Figure 1 representes the times for the three solutions. Huge difference between 
-Solution 1 and Solutions 2 and 3 prevent the latter to be visible.
+Figure 1 representes the times for the three solutions.
 
 .. figure:: output/anagrams1.png
     :alt: Three solutions. Ran 50 times
