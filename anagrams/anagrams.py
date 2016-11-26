@@ -192,7 +192,7 @@ class TestAnagrams(unittest.TestCase):
         anagrams = AnagramsX(self.source)
         self.assertRaises(PureVirtualMethod, anagrams.get_anagrams, 'pastel')
 
-    def test_exaustive(self):
+    def test_exhaustive(self):
         """
         This tests tests all anagrams for all words in the given
         dictionary !!
