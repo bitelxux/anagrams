@@ -176,6 +176,14 @@ class TestAnagrams(unittest.TestCase):
         self.anagrams2 = Anagrams2(self.source)
         self.anagrams3 = Anagrams3(self.source)
 
+    def test_no_word(self):
+        _, r =  self.anagrams1.get_anagrams("")
+        self.assertEqual([], r)
+        _, r =  self.anagrams1.get_anagrams("")
+        self.assertEqual([], r)
+        _, r =  self.anagrams1.get_anagrams("")
+        self.assertEqual([], r)
+
     def test_pure_virtual(self):
         class AnagramsX(Anagrams):
             def __init__(self, source):
@@ -197,8 +205,8 @@ class TestAnagrams(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    #unittest.main()
-    statistics = Statistics()
-    statistics.ratios()
-    statistics.gen_csv_all()
-    statistics.gen_csv_best()
+    unittest.main()
+    #statistics = Statistics()
+    #statistics.ratios()
+    #statistics.gen_csv_all()
+    #statistics.gen_csv_best()
