@@ -81,7 +81,7 @@ endobj
 << /Outlines 23 0 R /PageLabels 47 0 R /PageMode /UseNone /Pages 35 0 R /Type /Catalog >>
 endobj
 22 0 obj
-<< /Author () /CreationDate (D:20161127014917+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161127014917+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+<< /Author () /CreationDate (D:20161127015305+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161127015305+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Anagrams) /Trapped /False >>
 endobj
 23 0 obj
@@ -345,7 +345,7 @@ Q
 q
 1 0 0 1 23 -3 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Anagrams are ) Tj /F2 10 Tf (not ) Tj /F1 10 Tf (case sensitive so "Star" is an anagram of "Tras".) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Anagrams are ) Tj /F2 10 Tf (not ) Tj /F1 10 Tf (case sensitive so "Star" is an anagram of "Rats".) Tj T* ET
 Q
 Q
 q
@@ -5157,7 +5157,7 @@ xref
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(\371\315\333R\212\273e\332\2508%Q\346\277Oh) (\371\315\333R\212\273e\332\2508%Q\346\277Oh)]
+ [(\022q\270\253\007\012@\007\304\305\033\246\025\263\271\013) (\022q\270\253\007\012@\007\304\305\033\246\025\263\271\013)]
  /Info 22 0 R /Root 21 0 R /Size 59 >>
 startxref
 202087
