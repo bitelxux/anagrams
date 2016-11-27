@@ -81,7 +81,7 @@ endobj
 << /Outlines 23 0 R /PageLabels 47 0 R /PageMode /UseNone /Pages 35 0 R /Type /Catalog >>
 endobj
 22 0 obj
-<< /Author () /CreationDate (D:20161127011624+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161127011624+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+<< /Author () /CreationDate (D:20161127014917+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161127014917+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Anagrams) /Trapped /False >>
 endobj
 23 0 obj
@@ -126,7 +126,7 @@ endobj
   20 0 R ] /Type /Pages >>
 endobj
 36 0 obj
-<< /Length 4526 >>
+<< /Length 4525 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -264,7 +264,7 @@ q
 1 0 0 1 62.69291 507.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .331488 Tw (That means that in order to get all the anagrams for a needed word, we don't need to compare the words) Tj T* 0 Tw (their selves but their ordered representation.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .804488 Tw (That means that in order to get all the anagrams for a given word, we don't need to compare the words) Tj T* 0 Tw (their selves but their ordered representation.) Tj T* ET
 Q
 Q
 q
@@ -5132,33 +5132,33 @@ xref
 0000034092 00000 n
 0000034205 00000 n
 0000034341 00000 n
-0000038924 00000 n
-0000053371 00000 n
-0000067357 00000 n
-0000084115 00000 n
-0000084818 00000 n
-0000085564 00000 n
-0000089783 00000 n
-0000110615 00000 n
-0000143868 00000 n
-0000176754 00000 n
-0000201536 00000 n
-0000201679 00000 n
-0000201716 00000 n
-0000201753 00000 n
-0000201790 00000 n
-0000201827 00000 n
-0000201864 00000 n
-0000201901 00000 n
-0000201938 00000 n
-0000201975 00000 n
-0000202012 00000 n
-0000202050 00000 n
+0000038923 00000 n
+0000053370 00000 n
+0000067356 00000 n
+0000084114 00000 n
+0000084817 00000 n
+0000085563 00000 n
+0000089782 00000 n
+0000110614 00000 n
+0000143867 00000 n
+0000176753 00000 n
+0000201535 00000 n
+0000201678 00000 n
+0000201715 00000 n
+0000201752 00000 n
+0000201789 00000 n
+0000201826 00000 n
+0000201863 00000 n
+0000201900 00000 n
+0000201937 00000 n
+0000201974 00000 n
+0000202011 00000 n
+0000202049 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(~Pd\230I5\340\334\346[\365f\247*\322\250) (~Pd\230I5\340\334\346[\365f\247*\322\250)]
+ [(\371\315\333R\212\273e\332\2508%Q\346\277Oh) (\371\315\333R\212\273e\332\2508%Q\346\277Oh)]
  /Info 22 0 R /Root 21 0 R /Size 59 >>
 startxref
-202088
+202087
 %%EOF

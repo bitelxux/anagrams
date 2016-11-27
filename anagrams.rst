@@ -21,7 +21,7 @@ General approach
 the letters of a word or phrase to produce a new word or phrase, using
 all the original letters exactly once"* ( source: wikipedia )
 
-That means that in order to get all the anagrams for a needed word, we don't
+That means that in order to get all the anagrams for a given word, we don't
 need to compare the words their selves but their ordered representation.
 
 Given two words, word1 and word2
