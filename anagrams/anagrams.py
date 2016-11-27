@@ -7,7 +7,7 @@ returns all anagrams from words.txt for a given word.
 
 **Bonus requirements:**
 
-  - Optimise the code for fast retrieval
+  - Optimize the code for fast retrieval
   - Write more tests
   - Thread safe implementation
 """
