@@ -10,7 +10,7 @@ returns all anagrams from words.txt for a given word.
 
 **Bonus requirements:**
 
-  - Optimise the code for fast retrieval
+  - Optimize the code for fast retrieval
   - Write more tests
   - Thread safe implementation
 
@@ -22,7 +22,7 @@ the letters of a word or phrase to produce a new word or phrase, using
 all the original letters exactly once"* ( source: wikipedia )
 
 That means that in order to get all the anagrams for a needed word, we don't
-need to compare the words theirselves but their ordered representation.
+need to compare the words their selves but their ordered representation.
 
 Given two words, word1 and word2
 
@@ -33,12 +33,12 @@ Then
 
 word1 and word2 are anagrams.
 
-Assumtions
-----------
+Assumptions
+-----------
 
 - One given word is anagram of itself.
 - Anagrams are **not** case sensitive so "Star" is an anagram of "Tras".
-- Special characters as " ' " are considered as regular caracters too.
+- Special characters as " ' " are considered as regular characters too.
 
 .. page::
 
@@ -49,7 +49,7 @@ There is a few options to approach this problem, and this document goes through
 some of them, from the one which could come first to an inexperienced
 developer's head to a couple of them with important improvements.
 
-Well see that the first approach, wich implements the trivial solution, has
+Well see that the first approach, which implements the trivial solution, has
 am awful performance, while the second and third one performs thousands of times
 better with a cost of some extra memory use.
 
@@ -62,8 +62,8 @@ to sort each of the words in the dictionary to compare them to the
 sorted given word.
 
 The building of the list is very fast, as no operation involved.
-However, further searchs are very slow due to the dictionary needs to be
-complely walked in order to find anagrams.
+However, further searches are very slow due to the dictionary needs to be
+completely walked in order to find anagrams.
 
 .. code-block:: python
   :startinline: true
@@ -103,7 +103,7 @@ given word will return all its anagrams.
 Solution 3: hash keys
 .....................
 
-Similarly to solution 2, buils a python dictionary where the key is the
+Similarly to solution 2, builds a python dictionary where the key is the
 hash of the ordered characters representation for each of the original words
 and value is a list containing all words where the hash of their ordered
 characters representation matches the key.
@@ -124,7 +124,7 @@ Results
 
 Solution 1, as expected, has a very bad performance.
 
-Running each of the aproaches 500 times, Solution 1 is between 5000 and 8000
+Running each of the approaches 500 times, Solution 1 is between 5000 and 8000
 times slower than Solution 2 and Solution 3
 
 ========== ============== ============= ===============
@@ -134,14 +134,14 @@ Solution1                   7763.218794     7645.291891
 Solution2                                      0.984810
 ========== ============== ============= ===============
 
-Solution 2 and Solution 3 are almonst the same, being Solution 2 slightly 
+Solution 2 and Solution 3 are almost the same, being Solution 2 slightly 
 faster than Solution 3 ( probably because of the cost of hash ).
 
-Solution 3 is, however, less memory consumming.
+Solution 3 is, however, less memory consuming.
 
 .. page::
 
-Figure 1 representes the times for the three solutions.
+Figure 1 represents the times for the three solutions.
 
 .. figure:: output/anagrams1.png
     :alt: Three solutions. Ran 100 times
@@ -162,14 +162,14 @@ a very similar performance.
 .. page::
 
 Having a look to these results, the election of Solution 2 or Solution 3
-would depend on which is more important in a real proyect:
+would depend on which is more important in a real project:
 
 * Is it critical to be as fast as possible and to use more memory is
   not a big deal ? 
 
   Solution 2 wins.
 
-* Is it critical to save memory and having a slighty slower algorithm is
+* Is it critical to save memory and having a slightly slower algorithm is
   suitable ?
 
   Solution 3 wins.

@@ -81,7 +81,7 @@ endobj
 << /Outlines 23 0 R /PageLabels 47 0 R /PageMode /UseNone /Pages 35 0 R /Type /Catalog >>
 endobj
 22 0 obj
-<< /Author () /CreationDate (D:20161126214234+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161126214234+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+<< /Author () /CreationDate (D:20161127010940+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20161127010940+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Anagrams) /Trapped /False >>
 endobj
 23 0 obj
@@ -94,7 +94,7 @@ endobj
 << /Dest [ 5 0 R /XYZ 62.69291 588.0236 0 ] /Next 26 0 R /Parent 23 0 R /Prev 24 0 R /Title (General approach) >>
 endobj
 26 0 obj
-<< /Dest [ 5 0 R /XYZ 62.69291 423.0236 0 ] /Next 27 0 R /Parent 23 0 R /Prev 25 0 R /Title (Assumtions) >>
+<< /Dest [ 5 0 R /XYZ 62.69291 423.0236 0 ] /Next 27 0 R /Parent 23 0 R /Prev 25 0 R /Title (Assumptions) >>
 endobj
 27 0 obj
 << /Count 3 /Dest [ 8 0 R /XYZ 62.69291 765.0236 0 ] /First 28 0 R /Last 30 0 R /Next 31 0 R /Parent 23 0 R 
@@ -126,7 +126,7 @@ endobj
   20 0 R ] /Type /Pages >>
 endobj
 36 0 obj
-<< /Length 4523 >>
+<< /Length 4526 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -185,7 +185,7 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Optimise the code for fast retrieval) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Optimize the code for fast retrieval) Tj T* ET
 Q
 Q
 q
@@ -264,7 +264,7 @@ q
 1 0 0 1 62.69291 507.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .331488 Tw (That means that in order to get all the anagrams for a needed word, we don't need to compare the words) Tj T* 0 Tw (theirselves but their ordered representation.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .331488 Tw (That means that in order to get all the anagrams for a needed word, we don't need to compare the words) Tj T* 0 Tw (their selves but their ordered representation.) Tj T* ET
 Q
 Q
 q
@@ -298,7 +298,7 @@ Q
 q
 1 0 0 1 62.69291 402.0236 cm
 q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Assumtions) Tj T* ET
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Assumptions) Tj T* ET
 Q
 Q
 q
@@ -369,7 +369,7 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Special characters as " ' " are considered as regular caracters too.) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Special characters as " ' " are considered as regular characters too.) Tj T* ET
 Q
 Q
 q
@@ -385,7 +385,7 @@ Q
 endstream
 endobj
 37 0 obj
-<< /Length 14384 >>
+<< /Length 14389 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -405,7 +405,7 @@ q
 1 0 0 1 62.69291 672.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .259985 Tw (Well see that the first approach, wich implements the trivial solution, has am awful performance, while the) Tj T* 0 Tw (second and third one performs thousands of times better with a cost of some extra memory use.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.018651 Tw (Well see that the first approach, which implements the trivial solution, has am awful performance, while) Tj T* 0 Tw (the second and third one performs thousands of times better with a cost of some extra memory use.) Tj T* ET
 Q
 Q
 q
@@ -425,7 +425,7 @@ q
 1 0 0 1 62.69291 570.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .538876 Tw (The building of the list is very fast, as no operation involved. However, further searchs are very slow due) Tj T* 0 Tw (to the dictionary needs to be complely walked in order to find anagrams.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .229987 Tw (The building of the list is very fast, as no operation involved. However, further searches are very slow due) Tj T* 0 Tw (to the dictionary needs to be completely walked in order to find anagrams.) Tj T* ET
 Q
 Q
 q
@@ -1153,7 +1153,7 @@ Q
 endstream
 endobj
 39 0 obj
-<< /Length 16699 >>
+<< /Length 16700 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1166,7 +1166,7 @@ q
 1 0 0 1 62.69291 705.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.877633 Tw (Similarly to solution 2, buils a python dictionary where the key is the hash of the ordered characters) Tj T* 0 Tw .012093 Tw (representation for each of the original words and value is a list containing all words where the hash of their) Tj T* 0 Tw (ordered characters representation matches the key.) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.550574 Tw (Similarly to solution 2, builds a python dictionary where the key is the hash of the ordered characters) Tj T* 0 Tw .012093 Tw (representation for each of the original words and value is a list containing all words where the hash of their) Tj T* 0 Tw (ordered characters representation matches the key.) Tj T* ET
 Q
 Q
 q
@@ -1546,7 +1546,7 @@ q
 1 0 0 1 62.69291 308.8236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.131235 Tw (Running each of the aproaches 500 times, Solution 1 is between 5000 and 8000 times slower than) Tj T* 0 Tw (Solution 2 and Solution 3) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.783735 Tw (Running each of the approaches 500 times, Solution 1 is between 5000 and 8000 times slower than) Tj T* 0 Tw (Solution 2 and Solution 3) Tj T* ET
 Q
 Q
 q
@@ -1667,14 +1667,14 @@ q
 1 0 0 1 62.69291 218.8236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .25832 Tw (Solution 2 and Solution 3 are almonst the same, being Solution 2 slightly faster than Solution 3 \( probably) Tj T* 0 Tw (because of the cost of hash \).) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .567209 Tw (Solution 2 and Solution 3 are almost the same, being Solution 2 slightly faster than Solution 3 \( probably) Tj T* 0 Tw (because of the cost of hash \).) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 200.8236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Solution 3 is, however, less memory consumming.) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Solution 3 is, however, less memory consuming.) Tj T* ET
 Q
 Q
 q
@@ -1684,14 +1684,14 @@ Q
 endstream
 endobj
 40 0 obj
-<< /Length 648 >>
+<< /Length 647 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
 1 0 0 1 62.69291 753.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Figure 1 representes the times for the three solutions.) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Figure 1 represents the times for the three solutions.) Tj T* ET
 Q
 Q
 q
@@ -1770,14 +1770,14 @@ Q
 endstream
 endobj
 42 0 obj
-<< /Length 4161 >>
+<< /Length 4162 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
 1 0 0 1 62.69291 741.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.152093 Tw (Having a look to these results, the election of Solution 2 or Solution 3 would depend on which is more) Tj T* 0 Tw (important in a real proyect:) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.152093 Tw (Having a look to these results, the election of Solution 2 or Solution 3 would depend on which is more) Tj T* 0 Tw (important in a real project:) Tj T* ET
 Q
 Q
 q
@@ -1832,7 +1832,7 @@ q
 1 0 0 1 23 15 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Is it critical to save memory and having a slighty slower algorithm is suitable ?) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Is it critical to save memory and having a slightly slower algorithm is suitable ?) Tj T* ET
 Q
 Q
 q
@@ -5122,43 +5122,43 @@ xref
 0000032748 00000 n
 0000032863 00000 n
 0000032996 00000 n
-0000033123 00000 n
-0000033289 00000 n
-0000033416 00000 n
-0000033567 00000 n
-0000033693 00000 n
-0000033818 00000 n
-0000033957 00000 n
-0000034091 00000 n
-0000034204 00000 n
-0000034340 00000 n
-0000038920 00000 n
-0000053362 00000 n
-0000067348 00000 n
-0000084105 00000 n
-0000084809 00000 n
-0000085555 00000 n
-0000089773 00000 n
-0000110605 00000 n
-0000143858 00000 n
-0000176744 00000 n
-0000201526 00000 n
-0000201669 00000 n
-0000201706 00000 n
-0000201743 00000 n
-0000201780 00000 n
-0000201817 00000 n
-0000201854 00000 n
-0000201891 00000 n
-0000201928 00000 n
-0000201965 00000 n
-0000202002 00000 n
-0000202040 00000 n
+0000033124 00000 n
+0000033290 00000 n
+0000033417 00000 n
+0000033568 00000 n
+0000033694 00000 n
+0000033819 00000 n
+0000033958 00000 n
+0000034092 00000 n
+0000034205 00000 n
+0000034341 00000 n
+0000038924 00000 n
+0000053371 00000 n
+0000067357 00000 n
+0000084115 00000 n
+0000084818 00000 n
+0000085564 00000 n
+0000089783 00000 n
+0000110615 00000 n
+0000143868 00000 n
+0000176754 00000 n
+0000201536 00000 n
+0000201679 00000 n
+0000201716 00000 n
+0000201753 00000 n
+0000201790 00000 n
+0000201827 00000 n
+0000201864 00000 n
+0000201901 00000 n
+0000201938 00000 n
+0000201975 00000 n
+0000202012 00000 n
+0000202050 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(."\371\021\267a\263-\243{\357pA\262\203\207) (."\371\021\267a\263-\243{\357pA\262\203\207)]
+ [(\222V\364\2030\204{u\037\362\265\267l\220\204\376) (\222V\364\2030\204{u\037\362\265\267l\220\204\376)]
  /Info 22 0 R /Root 21 0 R /Size 59 >>
 startxref
-202078
+202088
 %%EOF
