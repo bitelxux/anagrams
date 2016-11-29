@@ -117,7 +117,7 @@ used for the keys is fixed to *size of integer* * number of words.
   :linenos_offset: true
   :include: anagrams/anagrams.py
   :start-after: # rst-Anagrams3
-  :end-before: # rst-Tests
+  :end-before: # rst-main
 
 Results
 -------
@@ -202,14 +202,12 @@ Test environment
 Appendix
 --------
 
-Complete code is bellow ( skiping 45k tests ):
+Complete code is bellow:
 
 .. code-block:: python
   :linenos: true
   :linenos_offset: true
   :include: anagrams/anagrams.py
-  :start-after: #!/usr/bin/python
-  :end-before: # rst-start-45k-tests
 
 
 
