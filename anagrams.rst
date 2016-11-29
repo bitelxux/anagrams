@@ -179,7 +179,8 @@ Latest considerations
 
 * About tests
 
-  An exhaustive test is run covering 100% of the words in the given dictionary
+  Exhaustive tests are running against every single word in the provide
+  dictionary
 
 * About threading
 
@@ -201,14 +202,14 @@ Test environment
 Appendix
 --------
 
-Complete code is bellow:
-
-Note: exhaustive tests are massive so they are in a separated file exhaustive.py
+Complete code is bellow ( skiping 45k tests ):
 
 .. code-block:: python
   :linenos: true
   :linenos_offset: true
   :include: anagrams/anagrams.py
+  :start-after: #!/usr/bin/python
+  :end-before: # rst-start-45k-tests
 
 
 
