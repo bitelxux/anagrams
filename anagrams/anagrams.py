@@ -167,9 +167,8 @@ class Anagrams3(Anagrams):
 
 # rst-main
 if __name__ == '__main__':
-    pass
-    #statistics = Statistics()
-    #statistics.ratios()
-    #statistics.gen_csv_all()
-    #statistics.gen_csv_best()
+    statistics = Statistics()
+    statistics.ratios()
+    statistics.gen_csv_all()
+    statistics.gen_csv_best()
 
