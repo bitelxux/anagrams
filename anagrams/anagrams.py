@@ -42,8 +42,7 @@ class Statistics(object):
     def __init__(self):
         self.anagrams1 = Anagrams1(self.source)
         self.anagrams2 = Anagrams2(self.source)
-        self.anagrams3 = Anagrams3(self.source)
-        self.workers = [self.anagrams1, self.anagrams2, self.anagrams3]
+        self.workers = [self.anagrams1, self.anagrams2]
 
     def ratios(self):
         averages = []
@@ -55,32 +54,26 @@ class Statistics(object):
             averages.append(elapsed/100.0)
 
         rat1_2 = averages[0]/averages[1] 
-        rat1_3 = averages[0]/averages[2] 
-        rat2_3 = averages[1]/averages[2] 
  
         print "1 vs 2: %f" % rat1_2
-        print "1 vs 3: %f" % rat1_3
-        print "2 vs 3: %f" % rat2_3
 
     def gen_csv_all(self):
         output_file = os.path.join(OUTPUT_DIR, "anagrams1.csv")
         output = open(output_file, 'w')
-        output.write("anagrams1,anagrams2,anagrams3\n")
+        output.write("anagrams1,anagrams2\n")
         for i in xrange(100):
             t0, _ = self.anagrams1.get_anagrams('plates')
             t1, _ = self.anagrams2.get_anagrams('plates')
-            t2, _ = self.anagrams3.get_anagrams('plates')
-            output.write("%f, %f, %f\n" %(t0, t1, t2))
+            output.write("%f, %f\n" %(t0, t1))
         output.close()
 
     def gen_csv_best(self):
         output_file = os.path.join(OUTPUT_DIR, "anagrams2.csv")
         output = open(output_file, 'w')
-        output.write("anagrams2,anagrams3\n")
+        output.write("anagrams2\n")
         for i in xrange(5000):
             t1, _ = self.anagrams2.get_anagrams('plates')
-            t2, _ = self.anagrams3.get_anagrams('plates')
-            output.write("%f, %f\n" %(t1, t2))
+            output.write("%f\n" %(t1))
         output.close()
 
 
@@ -140,30 +133,7 @@ class Anagrams2(Anagrams):
     def get_anagrams(self, word):
         key = "".join(c for c in sorted(word.lower()))
         return self.words.get(key, [])
-
-
-# rst-Anagrams3
-class Anagrams3(Anagrams):
-    """
-    Hash keys: Create a python dictionary where for each
-    original word in the words dictionary, it stores:
-      - key: the hash of the original sorted word
-      - value: all the words that once ordered have the same hash.
-    """
-
-    def __init__(self, source):
-        Anagrams.__init__(self, source)
-        self.hashes = {}
-        with open(self.source) as words:
-            for word in [w[:-2].lower() for w in words]:
-                key = hash("".join(c for c in sorted(word)))
-                self.hashes.setdefault(key, [])
-                self.hashes[key].append(word)
-
-    @timing
-    def get_anagrams(self, word):
-        key = hash("".join(c for c in sorted(word.lower())))
-        return self.hashes.get(key, [])
+# end-rst-Anagrams2
 
 # rst-main
 if __name__ == '__main__':

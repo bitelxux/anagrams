@@ -84,40 +84,15 @@ word in the original dictionary and value is a list containing all the words
 in the original dictionary where their ordered characters representation is
 the same that the key.
 
-In this case, collecting the words from the original words dictionary is
-slightly slower and it requires extra memory ( more or less twice, actually )
-but the performance later on, getting the anagrams for a given word is
-much better as only indexing the characters ordered representation of the
-given word will return all its anagrams.
-
 .. code-block:: python
   :startinline: true
   :linenos: true
   :linenos_offset: true
   :include: anagrams/anagrams.py
   :start-after: # rst-Anagrams2
-  :end-before: # rst-Anagrams3
+  :end-before: # end-rst-Anagrams2
 
 .. page::
-
-Solution 3: hash keys
-.....................
-
-Similarly to solution 2, builds a python dictionary where the key is the
-hash of the ordered characters representation for each of the original words
-and value is a list containing all words where the hash of their ordered
-characters representation matches the key.
-
-This one should be the best approach in performance and the extra memory
-used for the keys is fixed to *size of integer* * number of words.
-
-.. code-block:: python
-  :startinline: true
-  :linenos: true
-  :linenos_offset: true
-  :include: anagrams/anagrams.py
-  :start-after: # rst-Anagrams3
-  :end-before: # rst-main
 
 Results
 -------
@@ -127,52 +102,34 @@ Solution 1, as expected, has a very bad performance.
 Running each of the approaches 500 times, Solution 1 is between 5000 and 8000
 times slower than Solution 2 and Solution 3
 
-========== ============== ============= ===============
-ta/tb          Solution 1    Solution 2      Solution 3
-========== ============== ============= ===============
-Solution1                   7763.218794     7645.291891
-Solution2                                      0.984810
-========== ============== ============= ===============
+========== ============= ===============
+ta/tb         Solution 1      Solution 2
+========== ============= ===============
+Solution1    7763.218794     7645.291891
+Solution2                       0.984810
+========== ============= ===============
 
-Solution 2 and Solution 3 are almost the same, being Solution 2 slightly 
-faster than Solution 3 ( probably because of the cost of hash ).
+Solution 2 performance shows much better performance, due to the fact that
+searching in a Python dictionary ( where keys are hashes ) is very efficient. 
 
-Solution 3 is, however, less memory consuming.
-
-.. page::
-
-Figure 1 represents the times for the three solutions.
+Figure 1 represents the times for the two solutions.
 
 .. figure:: output/anagrams1.png
-    :alt: Three solutions. Ran 100 times
+    :alt: Two solutions. Ran 100 times
 
-    Fig. :counter:`figure`: 100 run times, solutions 1, 2 and 3
+    Fig. :counter:`figure`: 100 run times, solutions 1 and 2
 
 .. page::
 
-Figure 2 represents times for solutions 2 and 3. Both solutions present
-a very similar performance.
+Figure 2 represents times for solution 2.
 
 .. figure:: output/anagrams2.png
     :alt: Best solutions. Ran 5000 times
 
-    Fig. :counter:`figure`: 5000 ran times, solutions 2 and 3
+    Fig. :counter:`figure`: 5000 ran times, solution 2
 
 
 .. page::
-
-Having a look to these results, the election of Solution 2 or Solution 3
-would depend on which is more important in a real project:
-
-* Is it critical to be as fast as possible and to use more memory is
-  not a big deal ? 
-
-  Solution 2 wins.
-
-* Is it critical to save memory and having a slightly slower algorithm is
-  suitable ?
-
-  Solution 3 wins.
 
 Latest considerations
 ---------------------
@@ -188,7 +145,7 @@ Latest considerations
 
 * About performance
 
-  Solutions 2 and 3 have a very good performance.
+  Solutions 2 has a very good performance.
 
 Test environment
 ----------------
