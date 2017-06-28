@@ -88,7 +88,6 @@ class Anagrams(object):
 # rst-Anagrams1
 class Anagrams1(Anagrams):
     """
-    Hi Ovidiu
     Very poor performance: This approach collects all the words in the
     dictionary and stores them in a list.
     In order to find the anagrams for a given word, the algorithm needs
