@@ -50,8 +50,8 @@ some of them, from the one which could come first to an inexperienced
 developer's head to a couple of them with important improvements.
 
 Well see that the first approach, which implements the trivial solution, has
-am awful performance, while the second and third one performs thousands of times
-better with a cost of some extra memory use.
+an awful performance, while the second performs thousands of times
+better.
 
 Solution 1: Brute force
 .......................

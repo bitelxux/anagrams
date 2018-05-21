@@ -76,7 +76,6 @@ class Statistics(object):
             output.write("%f\n" %(t1))
         output.close()
 
-
 class Anagrams(object):
 
     def __init__(self, source):
